@@ -1,3 +1,4 @@
 - Plan project schedules
-- Cook dinner
+- Cook dinner 
 - Complete git beginners module
+- Adding in fourth task to list
