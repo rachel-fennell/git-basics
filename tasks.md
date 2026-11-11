@@ -1,0 +1,3 @@
+- Plan project schedule
+- Cook dinner
+- Complete git beginners module
