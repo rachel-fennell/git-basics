@@ -1,3 +1,3 @@
-- Plan project schedule
+- Plan project schedules
 - Cook dinner
 - Complete git beginners module
