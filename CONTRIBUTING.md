@@ -3,7 +3,7 @@
 ## Branches
 Start each change from the latest main branch
 Use a separate branch for each change
-Use a short, descriptive name in lowercase
+Use a short, descriptive name in lowercase such as branch-name
 
 ## Commits
 Keep each commit focused on one logical change
