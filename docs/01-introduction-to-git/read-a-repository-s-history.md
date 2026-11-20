@@ -1,6 +1,6 @@
-# Read a Repository's History
+## Read a Repository's History
 
-Goal
+##Goal
 
 To clone a public repo and use git to answer questions relating to its history. I had to answer how many commits it had, three most frequent authors, what the first commit contained, which files changed in latest commit and discuss commit messages shown.
 
@@ -8,17 +8,18 @@ The repo which I used was:
 
 https://github.com/alan2207/bulletproof-react.git
 
-Steps Taken
-Firstly I found an open-source repo to clone. I then ran specific commands in order to answer the goal questions mentioned above. After I had ran all of the commands and received an output for each, I reviewed over the information returned.
+##Steps Taken
+1. I found an open-source repo to clone. I then ran specific commands in order to answer the goal questions mentioned above
+2. I reviewed over the information returned
 
-From this, I was able to determine the following information:
+3. From this, I was able to determine the following information:
 
 One commit message I would copy: 777534a Remove head component in discussion route because it's already used in ContentLayout
 I think that this commit message is very descriptive and allows you to know exactly what was changed.
 One commit message I would improve: 1fb422b update
 This commit message gives no real information other than an update. Anyone reviewing this would need to go into the commit file changes directly to work out what has happened. 
 
-Commands
+##Commands
 
 git clone https://github.com/alan2207/bulletproof-react.git
 git rev-list --count HEAD
@@ -27,7 +28,7 @@ git log --reverse --stat | head -40
 git show --stat HEAD
 git log --oneline
 
-Results
+##Results
 
 rachel@Mac bulletproof-react % git rev-list --count HEAD
 271
@@ -395,5 +396,5 @@ d8cb1f3 Merge pull request #169 from alan2207/fix-docs-links
 09bd95e fix docs links
 ef999b0 Merge pull request #168 from alan2207/fix-prod-build
 
-Observations
+##Observations
 N/A
